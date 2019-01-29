@@ -1,0 +1,5 @@
+var1 = True
+var2 = 200
+print('Variável 1 é True' if var1 is True else 'Variável 1 é False')
+print(' e maior que 400' if var1 is True and var2 > 400 else '')
+print(' e menor que 400' if var1 is False and var2 < 400 else '')
